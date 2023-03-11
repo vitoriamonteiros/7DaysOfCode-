@@ -1,0 +1,25 @@
+/7DaysOfCode - Lógica JS 2-7: Variáveis
+
+/* Ele deve pedir para o usuário responder 3 perguntas:
+
+- Qual o seu nome?
+- Quantos anos você tem?
+- Qual linguagem de programação você está estudando?
+*/
+
+/* EXEMPLO:
+const cidade = prompt("Digite a sua cidade:");
+const msg = `Você é de ${cidade}!`;
+alert(msg); 
+*/
+
+const nome = prompt("Qual o seu nome?"); // prompt() precisa que o usuário insira algum valor, que você poderá manipular.
+const idade = prompt("Quantos anos você tem?");
+const linguagem = prompt("Qual linguagem de programação você está estudando?");
+const resposta = `"Olá, ${nome}! Você tem ${idade} anos e a linguagem que está aprendendo é o ${linguagem}!"`;
+
+alert(resposta);  //O alert() é usado para mostrar uma mensagem simples ao usuário.
+
+
+//Já o prompt() precisa que o usuário insira algum valor, que você poderá manipular.
+//O alert() é usado para mostrar uma mensagem simples ao usuário.
